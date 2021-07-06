@@ -1,5 +1,5 @@
 .intro{
-    background-image: url('/PBL-PROJECT/images/amaredit.jpg.jpg');
+    background-image: url('/images/amaredit.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     height: 1100px;
@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     /* color: rgb(212, 66, 151); */
-    font-size: large;
+    /* font-size: large; */
 }
 .intro-contain{
     font-size: 34px;
