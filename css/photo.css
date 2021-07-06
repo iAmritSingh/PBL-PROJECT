@@ -146,3 +146,19 @@ ol{
 .drop-content a:hover {background-color: rgb(46, 45, 45);}
 .drop:hover .drop-content{ display: block;}
 .drop:hover .dropbtn {background-color: #ff0000;}
+
+.insta-posts{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin: 0px 100px;
+    margin-bottom: 250px;
+}
+.post{
+    margin: 0px 50px ;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
