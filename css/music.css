@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .welcome_container{
     background-image: url("/images/music-into.jpg");
     background-size: cover;

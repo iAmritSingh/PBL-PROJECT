@@ -60,7 +60,7 @@ header{
 }
 .card{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 4fr;
     grid-gap: 2rem;
     background: #e2e2e2;
     margin-bottom: 2rem;
@@ -70,10 +70,14 @@ header{
     margin-bottom: 2rem;
 }
 .card img{
+    width: 350px;
     height: 350px;
 }
 .card div{
     padding: 2rem;
+}
+.card:nth-child(even) {
+    grid-template-columns: 4fr 3fr;
 }
 .card:nth-child(even) img{
     order: 2;
