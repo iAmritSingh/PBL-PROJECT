@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .welcome_container{
-    background-image: url("/images/music-into.jpg");
+    background-image: url("../images/music-into.jpg");
     background-size: cover;
     color: white;
     font-size: x-large;
@@ -79,4 +79,8 @@
 }
 .profile-card .btn1:hover{
     opacity: 0.8;
+}
+
+.music-title{
+    font-family: 'Pacifico', cursive;
 }
