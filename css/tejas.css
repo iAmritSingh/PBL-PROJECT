@@ -1,0 +1,28 @@
+ .insta-posts{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 150px;
+}
+.posts{
+    width: 450px;
+    height: 250px;
+    margin-bottom: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+} 
+
+.btt{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 20px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.btt:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+}
