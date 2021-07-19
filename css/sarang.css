@@ -1,12 +1,11 @@
 .intro{
-    background-image: url('/images/sarrang.jpg');
-    background-size:100% 100%;
+    background-image: url('../images/sarang.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
     height: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
     /* color: rgb(212, 66, 151); */
     /* font-size: large; */
 }
@@ -16,18 +15,43 @@
     text-align: center;
 }
 .con{
-    display: flex;
-    margin-top: 50px;
+   display: grid;
+   grid-template-areas: 'cot-1 cot-1 cot-3 cot-3'
+                        'cot-1 cot-1 cot-3 cot-3'
+                        'cot-2 cot-2 cot-3 cot-3'
+                        'cot-2 cot-2 cot-3 cot-3';
+   margin-top: 115px;
+
+
+
+}
+.content-1{
+    grid-area: cot-1;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 90px;
+}
+.content-2{
+    grid-area: cot-2;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 90px;
+
+
+}
+.content-3{
+    grid-area: cot-3;
+    /* border: 2px solid red; */
 
 }
 .achievements{
-    width: 100%;
+    width: 45%;
     text-align: center;
     padding: 100px 84px 69px 76px;
 }
-.achievements >div{
+/* .achievements >div{
     border-left: 2px solid blue;
-}
+} */
 .amarimg{
     width: 48%;
     height: 400px;
@@ -40,11 +64,42 @@
 }
 .connect{
     text-align: center;
-    background-color: rgb(171, 185, 47);
+    background-color: rgb(225, 230, 184);
     border-radius: 40px;
+    margin-top: 435px;
 }
 .connect_links{
     display: flex;
     justify-content: center;
     margin: 60px;
+}
+.post-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 150px;
+    
+}
+.post{
+    width: 450px;
+    height: 250px;
+    margin-bottom: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btt{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 20px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.btt:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
 }
