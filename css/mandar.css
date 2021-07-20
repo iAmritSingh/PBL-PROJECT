@@ -1,7 +1,7 @@
 .intro{
     color: white;
-    background-image: url('../images/sarang2.jfif');
-    background-size:cover;
+    background-image: url('../images/mandar3.jfif');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 1100px;
     display: flex;
@@ -19,7 +19,7 @@
                         'cot-1 cot-1 cot-3 cot-3'
                         'cot-2 cot-2 cot-3 cot-3'
                         'cot-2 cot-2 cot-3 cot-3';
-   margin-top: 115px;
+   margin-top: 150px;
 
 
 
@@ -50,7 +50,7 @@
     text-align: center;
     background-color: rgb(225, 230, 184);
     border-radius: 40px;
-    margin-top: 435px;
+    margin-top: 300px;
 }
 .connect_links{
     display: flex;
