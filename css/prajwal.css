@@ -1,0 +1,79 @@
+.intro{
+    background-image: url('../images/prajwal-pawar-sketch1619411236906.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro-contain{
+    font-size: 25px;
+    width: 50%;
+    text-align: left;
+}
+.con{
+   display: grid;
+   grid-template-areas: 'cot-1 cot-1 cot-3 cot-3'
+                        'cot-1 cot-1 cot-3 cot-3'
+                        'cot-2 cot-2 cot-3 cot-3'
+                        'cot-2 cot-2 cot-3 cot-3';
+   margin-top: 150px;
+
+
+
+}
+.content-1{
+    grid-area: cot-1;
+    text-align: center;
+    padding: 90px;
+}
+.content-2{
+    grid-area: cot-2;
+    text-align: center;
+    padding: 90px;
+
+
+}
+.content-3{
+    grid-area: cot-3;
+
+}
+.achievements{
+    width: 45%;
+    text-align: center;
+    padding: 100px 84px 69px 76px;
+}
+
+
+
+.btt{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 20px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.btt:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.post-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 50px;
+    
+}
+.post{
+    width: 450px;
+    height: 250px;
+    margin-bottom: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
