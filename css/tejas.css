@@ -77,3 +77,15 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.connect{
+    text-align: center;
+    background-color: rgb(225, 230, 184);
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.connect_links{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}

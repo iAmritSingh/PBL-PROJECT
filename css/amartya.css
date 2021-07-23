@@ -1,6 +1,7 @@
-.intro{
+
+ .intro{
     background-image: url('../images/amaredit.jpg');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     height: 1100px;
     display: flex;
@@ -14,11 +15,9 @@
 }
 .con{
    display: grid;
-   grid-template-areas: 'cot-1 cot-1 cot-3 cot-3'
-                        'cot-1 cot-1 cot-3 cot-3'
-                        'cot-2 cot-2 cot-3 cot-3'
+   grid-template-areas: 'cot-2 cot-2 cot-3 cot-3'
                         'cot-2 cot-2 cot-3 cot-3';
-   margin-top: 150px;
+   margin-top: 115px;
 
 
 
@@ -31,7 +30,8 @@
 .content-2{
     grid-area: cot-2;
     text-align: center;
-    padding: 90px;
+    padding: 194px;
+    margin-top: 27px;
 
 
 }
@@ -50,7 +50,7 @@
     text-align: center;
     background-color: rgb(225, 230, 184);
     border-radius: 40px;
-    margin-top: 300px;
+    /* margin-top: 435px; */
 }
 .connect_links{
     display: flex;
@@ -58,21 +58,17 @@
     margin: 60px;
 }
 .post-container{
+    height: 1660px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 100px;
     margin-left: 125px;
-    margin-right: 125px;
-    margin-bottom: 150px;
-    
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    justify-content: space-around;
 }
-.post{
-    width: 450px;
-    height: 250px;
-    margin-bottom: 450px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 
 .btt{
     text-decoration: none;
@@ -87,7 +83,3 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.445);
 }
-
-
-
-
