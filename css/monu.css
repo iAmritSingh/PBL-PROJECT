@@ -1,6 +1,5 @@
 .intro{
-    color: white;
-    background-image: url('../images/sarang2.jfif');
+    background-image: url('../images/monu2.jfif');
     background-size:cover;
     background-repeat: no-repeat;
     height: 1100px;
@@ -15,24 +14,19 @@
 }
 .con{
    display: grid;
-   grid-template-areas: 'cot-1 cot-1 cot-3 cot-3'
-                        'cot-1 cot-1 cot-3 cot-3'
-                        'cot-2 cot-2 cot-3 cot-3'
+   grid-template-areas: 'cot-2 cot-2 cot-3 cot-3'
                         'cot-2 cot-2 cot-3 cot-3';
    margin-top: 115px;
 
 
 
 }
-.content-1{
-    grid-area: cot-1;
-    text-align: center;
-    padding: 90px;
-}
+
 .content-2{
     grid-area: cot-2;
     text-align: center;
-    padding: 90px;
+    padding: 194px;
+    margin-top: 27px;
 
 
 }
@@ -46,11 +40,12 @@
     padding: 100px 84px 69px 76px;
 }
 
+
 .connect{
     text-align: center;
     background-color: rgb(225, 230, 184);
     border-radius: 40px;
-    margin-top: 435px;
+    /* margin-top: 435px; */
 }
 .connect_links{
     display: flex;
@@ -58,21 +53,17 @@
     margin: 60px;
 }
 .post-container{
+    height: 1660px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 100px;
     margin-left: 125px;
-    margin-right: 125px;
-    margin-bottom: 150px;
-    
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    justify-content: space-around;
 }
-.post{
-    width: 450px;
-    height: 250px;
-    margin-bottom: 450px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 
 .btt{
     text-decoration: none;
